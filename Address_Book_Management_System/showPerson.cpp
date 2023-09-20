@@ -17,6 +17,6 @@ void showPerson(struct addressBook * adb)
 		}
 	}
 	
-	system("pasue");
+	system("pause");
 	system("cls");
 }
