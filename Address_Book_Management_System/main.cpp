@@ -1,6 +1,9 @@
 #include "showMenu.h"
 #include "addPerson.h"
+#include "showPerson.h"
+
 #include <iostream>
+
 using namespace std;
 
 int main()
@@ -27,6 +30,7 @@ int main()
 				break;
 			case 2:
 				//功能2：显示联系人
+				showPerson(&adb);
 				break;
 			case 3:
 				//功能3：删除联系人
@@ -47,8 +51,6 @@ int main()
 				break;
 		}
 	}
-
-
 
 	system("pause");
 

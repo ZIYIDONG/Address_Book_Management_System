@@ -20,4 +20,4 @@ struct addressBook {
 	int size;
 };
 
-void addPerson(struct addressBook* adb);
+void addPerson(struct addressBook *adb);

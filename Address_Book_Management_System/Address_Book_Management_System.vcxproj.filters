@@ -24,12 +24,18 @@
     <ClCompile Include="addPerson.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="showPerson.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="showMenu.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="addPerson.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="showPerson.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
