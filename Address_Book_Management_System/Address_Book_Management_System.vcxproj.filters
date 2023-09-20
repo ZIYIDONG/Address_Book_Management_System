@@ -21,15 +21,9 @@
     <ClCompile Include="showmenu.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="exit.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="showMenu.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="exit.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
