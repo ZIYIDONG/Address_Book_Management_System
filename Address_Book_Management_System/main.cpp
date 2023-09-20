@@ -1,8 +1,11 @@
 #include "showMenu.h"
 #include "addPerson.h"
 #include "showPerson.h"
+#include "findPerson.h"
+#include "deletePerson.h"
 
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -20,6 +23,8 @@ int main()
 		showMenu();
 
 		int select = 0;
+		int personLocation = 0;
+		string findName = "";
 		cout << "请输入数字选择要使用的功能:" << endl;
 		cin >> select;
 
@@ -34,6 +39,16 @@ int main()
 				break;
 			case 3:
 				//功能3：删除联系人
+				cin >> findName;
+				personLocation = findPerson(&adb,findName);
+				if (personLocation == -1) {
+					cout << "所查找的联系人不存在" << endl;
+					break;
+				}
+				else {
+					deletePerson(&adb, personLocation);
+					cout << "删除成功" << endl;
+				}
 				break;
 			case 4:
 				//功能4：查找联系人

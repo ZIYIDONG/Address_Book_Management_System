@@ -27,6 +27,12 @@
     <ClCompile Include="showPerson.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="findPerson.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deletePerson.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="showMenu.h">
@@ -36,6 +42,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="showPerson.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="findPerson.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deletePerson.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
