@@ -36,6 +36,9 @@
     <ClCompile Include="alterPerson.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="clearBook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="showMenu.h">
@@ -54,6 +57,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="alterPerson.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="clearBook.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

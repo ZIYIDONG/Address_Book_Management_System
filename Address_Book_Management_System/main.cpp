@@ -4,9 +4,11 @@
 #include "findPerson.h"
 #include "deletePerson.h"
 #include "alterPerson.h"
+#include "clearBook.h"
 
 #include <iostream>
 #include <string>
+
 
 using namespace std;
 
@@ -73,6 +75,7 @@ int main()
 				break;
 			case 6:
 				//功能6：清空通讯录中所有信息
+				clearBook(&adb);
 				break;
 			case 0://退出通讯录管理系统
 				cout << "欢迎下次使用!" << endl;
