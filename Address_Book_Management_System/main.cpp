@@ -3,6 +3,7 @@
 #include "showPerson.h"
 #include "findPerson.h"
 #include "deletePerson.h"
+#include "alterPerson.h"
 
 #include <iostream>
 #include <string>
@@ -68,6 +69,7 @@ int main()
 				break;
 			case 5:
 				//功能5：修改联系人
+				alterPerson(&adb);
 				break;
 			case 6:
 				//功能6：清空通讯录中所有信息

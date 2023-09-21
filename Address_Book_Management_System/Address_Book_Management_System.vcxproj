@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="addPerson.cpp" />
+    <ClCompile Include="alterPerson.cpp" />
     <ClCompile Include="deletePerson.cpp" />
     <ClCompile Include="findPerson.cpp" />
     <ClCompile Include="main.cpp" />
@@ -136,6 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="addPerson.h" />
+    <ClInclude Include="alterPerson.h" />
     <ClInclude Include="deletePerson.h" />
     <ClInclude Include="findPerson.h" />
     <ClInclude Include="showMenu.h" />
