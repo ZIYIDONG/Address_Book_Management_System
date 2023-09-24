@@ -1,9 +1,9 @@
 #include "addPerson.h"
-using namespace std;
 
-
+//添加联系人函数
 void addPerson(struct addressBook *adb)
 {
+	//判断通讯簿是否已满
 	if (adb->size > 1000) {
 		cout << "通讯录已满，无法添加" << endl;
 		return;

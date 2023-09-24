@@ -1,7 +1,7 @@
-#include <iostream>
 #include "showPerson.h"
 #include "addPerson.h"
 
+//显示联系人函数
 void showPerson(struct addressBook * adb)
 {
 	if ( adb->size == 0 ) {
@@ -9,10 +9,10 @@ void showPerson(struct addressBook * adb)
 	}
 	else {
 		for ( int i = 0; i < adb->size; i++ ) {
-			cout << adb->personArray[i].name << endl;
-			cout <<(adb->personArray[i].sex == 1 ? "男": "女")<< endl;
-			cout << adb->personArray[i].age << endl;
-			cout << adb->personArray[i].phone << endl;
+			cout << adb->personArray[i].name << "\t";
+			cout <<(adb->personArray[i].sex == 1 ? "男": "女")<< "\t";
+			cout << adb->personArray[i].age << "\t";
+			cout << adb->personArray[i].phone << "\t";
 			cout << adb->personArray[i].addr << endl;
 		}
 	}

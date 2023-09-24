@@ -133,7 +133,7 @@
     <ClCompile Include="deletePerson.cpp" />
     <ClCompile Include="findPerson.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="showmenu.cpp" />
+    <ClCompile Include="showMenu.cpp" />
     <ClCompile Include="showPerson.cpp" />
   </ItemGroup>
   <ItemGroup>

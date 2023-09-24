@@ -2,8 +2,7 @@
 #include "findPerson.h"
 #include "addPerson.h"
 
-using namespace std;
-
+//修改联系人
 void alterPerson(addressBook* adb){
 
 	cout << "请输入要修改的联系人：" << endl;

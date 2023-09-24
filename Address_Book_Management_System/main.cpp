@@ -22,13 +22,15 @@ int main()
 
 	while (true) {
 
-		//显示菜单
+		//显示功能选择菜单
 		showMenu();
 
-		int select = 0;
+		
 		int location = 0;
 		int personLocation = 0;
 		string findName = "";
+
+		int select = 0;
 		cout << "请输入数字选择要使用的功能:" << endl;
 		cin >> select;
 
@@ -43,6 +45,7 @@ int main()
 				break;
 			case 3:
 				//功能3：删除联系人
+				cout << "请输入要删除的联系人姓名：" << endl;
 				cin >> findName;
 				personLocation = findPerson(&adb,findName);
 				if (personLocation == -1) {
@@ -56,17 +59,18 @@ int main()
 				break;
 			case 4:
 				//功能4：查找联系人
+				cout << "请输入要查找的联系人姓名：" << endl;
 				cin >> findName;
 				location = findPerson(&adb, findName);
 				if (location == -1) {
 					cout << "查无此人" << endl;
 				}
 				else {
-					cout << "姓名：" << adb.personArray[location].name << "\t";
-					cout << "性别：" << adb.personArray[location].sex << "\t";
-					cout << "年龄：" << adb.personArray[location].age << "\t";
+					cout << "姓名：" << adb.personArray[location].name  << "\t";
+					cout << "性别：" << adb.personArray[location].sex   << "\t";
+					cout << "年龄：" << adb.personArray[location].age   << "\t";
 					cout << "电话：" << adb.personArray[location].phone << "\t";
-					cout << "住址：" << adb.personArray[location].addr << endl;
+					cout << "住址：" << adb.personArray[location].addr  << endl;
 				}
 				break;
 			case 5:
@@ -79,6 +83,7 @@ int main()
 				break;
 			case 0://退出通讯录管理系统
 				cout << "欢迎下次使用!" << endl;
+
 				system("pause");
 				return 0;
 				break;

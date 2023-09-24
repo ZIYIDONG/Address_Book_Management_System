@@ -14,10 +14,11 @@ struct personInformation {
 };
 
 
-//地址录结构体
+//通讯簿结构体
 struct addressBook {
 	struct personInformation personArray[MAX];
 	int size;
 };
 
+//添加联系人函数
 void addPerson(struct addressBook *adb);

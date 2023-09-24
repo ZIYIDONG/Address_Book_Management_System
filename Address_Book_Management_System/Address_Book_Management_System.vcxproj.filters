@@ -18,7 +18,7 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="showmenu.cpp">
+    <ClCompile Include="showMenu.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="addPerson.cpp">
